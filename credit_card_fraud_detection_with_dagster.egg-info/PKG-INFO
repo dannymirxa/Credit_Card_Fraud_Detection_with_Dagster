@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: credit_card_fraud_detection_with_dagster
+Version: 0.0.0
+Requires-Dist: dagster
+Requires-Dist: dagster-cloud
+Requires-Dist: kaggle
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
