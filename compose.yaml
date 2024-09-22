@@ -1,0 +1,11 @@
+services:
+  dagster-fraud:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dagster-fraud:latest
+    ports:
+      - "3001:3001"
+    volumes:
+      - .:/app
+    container_name: dagster-fraud
